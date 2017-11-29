@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px) {
+    .headandnavbox {
+        padding-left: 30px;
+       background-color: green;
+       float:right;
+    }
+
+
+    .linkbox{
+    	margin-top: 5px;
+    }
+}

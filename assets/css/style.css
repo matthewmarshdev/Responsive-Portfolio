@@ -73,7 +73,7 @@ form {
 }
 
 .headandnavbox{
-	position: static;
+	position: absolute;
 	width: 100%;
 	height: 90px;
 	border-bottom: 2px;
@@ -99,6 +99,7 @@ form {
 .nav{
 	position: relative;
     margin-top: 50px;
+    margin-right: 50px;
 	float: right;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: lightgrey;
@@ -218,10 +219,10 @@ form {
   }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (min-width: 981px) {
     .headandnavbox {
         padding-left: 30px;
-       background-color: red;
+       background-color: lightblue;
 
     }
 
@@ -231,18 +232,6 @@ form {
     }
 }
 
-@media screen and (max-width: 768px) {
-    .headandnavbox {
-        padding-left: 30px;
-       background-color: green;
-       float:right;
-    }
-
-
-    .linkbox{
-    	margin-top: 5px;
-    }
-}
 
 @media screen and (max-width: 640px) {
     .headandnavbox {

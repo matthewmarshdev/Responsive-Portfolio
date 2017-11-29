@@ -1,0 +1,12 @@
+@media screen and (max-width: 980px) {
+    .headandnavbox {
+        padding-left: 30px;
+       background-color: red;
+
+    }
+
+    aside{
+    	display: block;
+    	position: relative;
+    }
+}
