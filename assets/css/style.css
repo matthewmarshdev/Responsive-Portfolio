@@ -98,9 +98,7 @@ form {
 
 .nav{
 	position: relative;
-	margin-top: 40px;
-	margin-left: 350px;
-	margin-right: 25px;
+
 	float: right;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: lightgrey;
@@ -216,6 +214,11 @@ form {
     .headandnavbox {
         padding-left: 30px;
        background-color: red;
+
+    }
+
+    aside{
+    	display: block;
     }
 }
 
