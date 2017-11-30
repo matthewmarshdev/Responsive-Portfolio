@@ -196,7 +196,7 @@ form {
 .profimg{
 
 	width: 250px;
-	height: 210px;
+	height: auto;
 	margin-bottom: 40px;
 	float: left;
 }
