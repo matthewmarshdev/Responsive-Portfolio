@@ -9,11 +9,6 @@ body html{
 
 
 
-header{
-    font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 27px;
-}
-
 h2{
     font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 27px;
@@ -85,6 +80,8 @@ form {
 
 .headerbox{
 	float: left;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 27px;
 	text-align: center;
     background-color: #4aaaa5;
     color: white;
